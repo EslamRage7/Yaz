@@ -197,7 +197,7 @@
     width: 140px;
   }
   .about .title h1 {
-    font-size: 40px;
+    font-size: 37px;
     margin-bottom: 10px;
   }
   .about h4 {
@@ -225,7 +225,7 @@
   }
   .rainbow {
     position: absolute;
-    left: -3%;
+    left: -1%;
     top: 78%;
   }
   .watermelon {
