@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yaz</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:wght@100;500;700&family=New+Rocker&family=Nosifer&family=Pacifico&family=Poppins:wght@300;400;500;600;700;800&family=Quicksand:wght@500;600;700&family=Vast+Shadow&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- start side-bar -->
+    <div class="side-bar">
+      <ul class="list-unstyled">
+        <li class="home-icon active me-2">
+          <a rel="noopener" href="#home">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 111 112"
+              fill="none">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M56.7321 17.6475C55.8884 17.4017 54.9922 17.4017 54.1485 17.6475C53.9057 17.7182 53.479 17.8951 52.5711 18.5824C51.6164 19.3053 50.4476 20.3398 48.6263 21.9587L24.4192 43.4762C21.4515 46.1141 20.6102 46.9095 20.0253 47.7893C19.4627 48.6357 19.0435 49.569 18.7848 50.5518C18.5158 51.5735 18.4802 52.7307 18.4802 56.7013V79.8061C18.4802 83.8302 18.4839 86.5658 18.6594 88.679C18.8303 90.737 19.1399 91.7875 19.5205 92.5201C20.3971 94.2077 21.7732 95.5838 23.4608 96.4604C24.1934 96.841 25.2439 97.1506 27.3019 97.3215C29.4151 97.497 32.1507 97.5007 36.1748 97.5007H36.9602V83.6407C36.9602 73.4344 45.234 65.1606 55.4403 65.1606C65.6466 65.1606 73.9204 73.4344 73.9204 83.6407V97.5007H74.7058C78.7299 97.5007 81.4655 97.497 83.5787 97.3215C85.6367 97.1506 86.6872 96.841 87.4198 96.4604C89.1074 95.5838 90.4835 94.2077 91.3601 92.5201C91.7407 91.7875 92.0503 90.737 92.2212 88.679C92.3967 86.5658 92.4004 83.8302 92.4004 79.8061V56.7013C92.4004 52.7307 92.3649 51.5735 92.0958 50.5518C91.8371 49.569 91.4179 48.6357 90.8553 47.7893C90.2704 46.9095 89.4291 46.1141 86.4614 43.4762L62.2543 21.9587C60.433 20.3398 59.2642 19.3053 58.3095 18.5824C57.4016 17.8951 56.9749 17.7182 56.7321 17.6475ZM51.5649 8.77598C54.0959 8.03887 56.7847 8.03887 59.3157 8.77598C61.0719 9.28743 62.5282 10.1869 63.887 11.2157C65.1667 12.1846 66.6078 13.4656 68.2673 14.9409L92.6002 36.5701C92.7312 36.6865 92.8605 36.8014 92.9882 36.9148C95.3983 39.0549 97.219 40.6716 98.5502 42.674C99.6755 44.3667 100.514 46.2334 101.031 48.199C101.644 50.5243 101.642 52.9591 101.641 56.1823C101.641 56.353 101.64 56.526 101.64 56.7013V80C101.641 83.7817 101.641 86.9027 101.43 89.4437C101.21 92.0834 100.74 94.5082 99.5598 96.7795C97.8065 100.155 95.0545 102.907 91.6792 104.66C89.4079 105.84 86.9831 106.311 84.3434 106.53C81.8024 106.741 78.6814 106.741 74.8997 106.741H73.0195C72.9837 106.741 72.9475 106.741 72.9108 106.741C72.3512 106.741 71.683 106.741 71.0945 106.692C70.4122 106.636 69.4355 106.49 68.4158 105.961C67.1501 105.303 66.118 104.271 65.4606 103.005C64.9309 101.986 64.7854 101.009 64.7287 100.327C64.6798 99.7382 64.6801 99.0699 64.6803 98.5104L64.6803 83.6407C64.6803 78.5376 60.5434 74.4007 55.4403 74.4007C50.3372 74.4007 46.2003 78.5376 46.2003 83.6407L46.2003 98.5103C46.2005 99.0699 46.2008 99.7381 46.1519 100.327C46.0952 101.009 45.9497 101.986 45.42 103.005C44.7626 104.271 43.7305 105.303 42.4648 105.961C41.4451 106.49 40.4684 106.636 39.7861 106.692C39.1976 106.741 38.5294 106.741 37.9698 106.741C37.9331 106.741 37.8969 106.741 37.8611 106.741H35.9809C32.1992 106.741 29.0782 106.741 26.5372 106.53C23.8975 106.311 21.4727 105.84 19.2014 104.66C15.8261 102.907 13.0741 100.155 11.3208 96.7795C10.1409 94.5082 9.67027 92.0834 9.45106 89.4437C9.24004 86.9027 9.24009 83.7817 9.24016 80.0001L9.24016 56.7013C9.24016 56.526 9.24007 56.353 9.23998 56.1823C9.2383 52.9591 9.23703 50.5243 9.8493 48.199C10.3669 46.2334 11.2052 44.3667 12.3304 42.674C13.6616 40.6716 15.4822 39.0549 17.8924 36.9148C18.02 36.8014 18.1494 36.6865 18.2804 36.5701L42.6132 14.9409C44.2728 13.4657 45.7139 12.1846 46.9936 11.2157C48.3525 10.1869 49.8087 9.28743 51.5649 8.77598Z"
+                fill="white" /></svg
+          ></a>
+        </li>
+        <li class="about-icon">
+          <a rel="noopener" href="#about">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 111 111"
+              fill="none">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M32.3387 36.9635C32.3387 24.2057 42.681 13.8634 55.4388 13.8634C68.1966 13.8634 78.5389 24.2057 78.5389 36.9635C78.5389 49.7213 68.1966 60.0635 55.4388 60.0635C42.681 60.0635 32.3387 49.7213 32.3387 36.9635ZM55.4388 23.1034C47.7841 23.1034 41.5788 29.3088 41.5788 36.9635C41.5788 44.6182 47.7841 50.8235 55.4388 50.8235C63.0935 50.8235 69.2988 44.6182 69.2988 36.9635C69.2988 29.3088 63.0935 23.1034 55.4388 23.1034Z"
+                fill="white" />
+              <path
+                d="M29.0421 27.5298C31.4867 26.799 32.876 24.2247 32.1451 21.78C31.4143 19.3354 28.84 17.9461 26.3953 18.677C18.8017 20.9473 13.8587 28.6123 13.8587 36.9635C13.8587 45.3146 18.8017 52.9796 26.3953 55.2499C28.84 55.9808 31.4143 54.5915 32.1451 52.1469C32.876 49.7022 31.4867 47.128 29.0421 46.3971C26.0083 45.4901 23.0987 41.949 23.0987 36.9635C23.0987 31.978 26.0083 28.4369 29.0421 27.5298Z"
+                fill="white" />
+              <path
+                d="M84.4823 18.677C82.0376 17.9461 79.4634 19.3354 78.7325 21.78C78.0016 24.2247 79.3909 26.799 81.8355 27.5298C84.8693 28.4369 87.7789 31.978 87.7789 36.9635C87.7789 41.949 84.8693 45.4901 81.8355 46.3971C79.3909 47.128 78.0016 49.7022 78.7325 52.1469C79.4634 54.5915 82.0376 55.9808 84.4823 55.2499C92.0759 52.9796 97.0189 45.3146 97.0189 36.9635C97.0189 28.6123 92.0759 20.9473 84.4823 18.677Z"
+                fill="white" />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M55.4388 64.6835C46.2273 64.6835 37.3997 65.8581 30.6959 68.8349C23.8618 71.8696 18.4787 77.2231 18.4787 85.4736C18.4787 87.6298 18.8725 90.0836 20.3393 92.4233C21.8059 94.7628 24.059 96.5333 26.9694 97.85C32.5553 100.377 41.5044 101.644 55.4388 101.644C69.3732 101.644 78.3223 100.377 83.9082 97.85C86.8186 96.5333 89.0717 94.7628 90.5383 92.4233C92.0051 90.0836 92.3989 87.6298 92.3989 85.4736C92.3989 77.2231 87.0158 71.8696 80.1817 68.8349C73.4779 65.8581 64.6503 64.6835 55.4388 64.6835ZM27.7187 85.4736C27.7187 82.174 29.5752 79.4426 34.4459 77.2798C39.4469 75.059 46.7894 73.9236 55.4388 73.9236C64.0882 73.9236 71.4307 75.059 76.4317 77.2798C81.3024 79.4426 83.1589 82.174 83.1589 85.4736C83.1589 86.5069 82.9752 87.0916 82.7095 87.5155C82.4436 87.9397 81.8092 88.658 80.0996 89.4314C76.4454 91.0846 69.2245 92.4036 55.4388 92.4036C41.6531 92.4036 34.4322 91.0846 30.778 89.4314C29.0684 88.658 28.4341 87.9397 28.1681 87.5155C27.9024 87.0916 27.7187 86.5069 27.7187 85.4736Z"
+                fill="white" />
+              <path
+                d="M88.2604 62.6299C89.3947 60.3442 92.167 59.4109 94.4526 60.5451C101.354 63.9701 106.259 69.8863 106.259 78.5436C106.259 81.0951 104.19 83.1636 101.639 83.1636C99.0874 83.1636 97.0189 81.0951 97.0189 78.5436C97.0189 74.135 94.8243 71.0447 90.3452 68.822C88.0596 67.6878 87.1262 64.9155 88.2604 62.6299Z"
+                fill="white" />
+              <path
+                d="M20.5324 68.822C22.818 67.6878 23.7514 64.9155 22.6172 62.6299C21.4829 60.3442 18.7106 59.4109 16.425 60.5451C9.52317 63.9701 4.61865 69.8863 4.61865 78.5436C4.61865 81.0951 6.6871 83.1636 9.23867 83.1636C11.7902 83.1636 13.8587 81.0951 13.8587 78.5436C13.8587 74.135 16.0533 71.0447 20.5324 68.822Z"
+                fill="white" /></svg
+          ></a>
+        </li>
+        <li class="clint-icon">
+          <a rel="noopener" href="#clint"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 111 111"
+              fill="none">
+              <g clip-path="url(#clip0_3_2043)">
+                <path
+                  d="M63.8772 0C64.7329 0.238 65.6026 0.434345 66.442 0.720293C72.4266 2.75968 76.0768 8.0573 76.0933 14.7671C76.1126 22.6341 76.0981 30.5012 76.0983 38.3682C76.0983 38.7622 76.0983 39.156 76.0983 39.7467C76.5821 39.7467 76.9954 39.7467 77.4089 39.7467C83.6521 39.7469 89.8952 39.7296 96.1383 39.7519C102.797 39.7756 108.1 43.3872 110.096 49.3461C110.546 50.69 110.818 52.1607 110.826 53.5751C110.886 64.3287 110.885 75.083 110.851 85.837C110.831 92.104 107.001 97.3194 101.027 99.2781C100.231 99.5393 99.9745 99.8756 99.9999 100.703C100.064 102.794 100 104.889 100.028 106.982C100.049 108.643 99.5252 109.983 97.8993 110.634C96.3524 111.253 95.1271 110.638 94.0228 109.519C91.1082 106.565 88.1478 103.656 85.2371 100.698C84.7379 100.191 84.2352 100.006 83.5368 100.007C72.0972 100.026 60.6574 100.034 49.2177 100.015C41.9733 100.004 36.2752 95.2531 34.9798 88.1461C34.7938 87.1255 34.7912 86.0627 34.7891 85.0191C34.7743 77.2243 34.781 69.4293 34.781 61.6345C34.781 61.2095 34.781 60.7845 34.781 60.2174C32.4776 60.2174 30.287 60.2933 28.1053 60.1883C26.8383 60.1273 25.9685 60.5393 25.1007 61.4417C22.3996 64.2504 19.5918 66.956 16.8614 69.7369C15.7534 70.8656 14.523 71.4351 12.9759 70.8751C11.516 70.3466 10.85 69.1536 10.8461 67.2285C10.8413 64.8123 10.845 62.396 10.845 59.9585C9.76605 59.5075 8.67584 59.1465 7.67524 58.6169C3.48431 56.3987 0.992572 52.9259 0.183978 48.2492C0.147964 48.0409 0.0624833 47.8411 0 47.6372C0 35.8723 0 24.1073 0 12.3424C0.0666054 12.1777 0.165754 12.0185 0.194826 11.8473C0.94289 7.43399 3.26497 4.05772 7.14348 1.89858C8.73551 1.01253 10.6011 0.618107 12.3424 0C29.5207 0 46.6989 0 63.8772 0ZM93.2437 99.5143C93.3385 99.4692 93.4331 99.4241 93.5279 99.379C93.5279 98.4129 93.4795 97.4435 93.5387 96.4811C93.6372 94.8849 94.7454 93.7587 96.3392 93.5387C97.0873 93.4355 97.8544 93.4029 98.5793 93.2111C102.212 92.2494 104.364 89.3244 104.369 85.3356C104.38 75.0521 104.381 64.7687 104.369 54.4852C104.363 49.5032 101.157 46.3112 96.1726 46.3092C80.621 46.3029 65.0696 46.3036 49.518 46.3088C44.4809 46.3105 41.3372 49.4407 41.3283 54.4544C41.3194 59.4697 41.3262 64.4853 41.3264 69.5007C41.3264 74.8771 41.3331 80.2532 41.3242 85.6296C41.3199 88.2604 42.3396 90.3807 44.4267 91.9799C45.9909 93.1784 47.8151 93.494 49.7239 93.4943C61.5228 93.4956 73.3219 93.5094 85.1206 93.4769C86.5981 93.4728 87.7582 93.913 88.7687 94.9912C90.2187 96.5379 91.7482 98.0102 93.2437 99.5143ZM69.484 39.7469C69.5087 39.3321 69.5363 39.0826 69.5365 38.8331C69.5387 30.6806 69.5567 22.528 69.5306 14.3755C69.5161 9.7949 66.3158 6.52169 61.6944 6.50911C45.9306 6.46615 30.1666 6.46875 14.4026 6.50737C9.80293 6.51865 6.53644 9.75498 6.51128 14.3499C6.45357 24.8469 6.46094 35.3445 6.50802 45.8417C6.52776 50.2437 9.50678 53.3507 13.8311 53.6981C16.3051 53.8968 17.3406 55.0178 17.3591 57.5226C17.3643 58.2405 17.3599 58.9584 17.3599 59.6763C19.1936 58.1821 20.7618 56.6441 22.2827 55.0605C23.1891 54.1166 24.2285 53.6655 25.55 53.6965C27.7493 53.7482 29.9505 53.7106 32.1511 53.7104C33.0044 53.7104 33.8575 53.7104 34.7448 53.7104C34.7934 53.2954 34.8403 53.0153 34.8572 52.7337C35.264 45.9903 41.0461 40.0706 47.7632 39.8713C54.503 39.671 61.2516 39.7758 67.9963 39.7472C68.4595 39.7452 68.9225 39.7469 69.484 39.7469Z"
+                  fill="white" />
+                <path
+                  d="M68.9377 73.0132C71.3965 70.5483 73.7361 68.2 76.0792 65.8549C78.0674 63.865 80.043 61.8618 82.0572 59.8984C83.0049 58.9746 84.1552 58.6583 85.4411 59.1325C86.7094 59.6003 87.4291 60.5436 87.5987 61.8629C87.7541 63.0712 87.178 64.0056 86.348 64.832C83.2811 67.8854 80.2261 70.951 77.1668 74.012C75.3568 75.8232 73.5508 77.6384 71.7349 79.4439C69.8576 81.3106 68.1382 81.3299 66.2863 79.4914C63.9317 77.154 61.594 74.7991 59.2452 72.4556C58.2904 71.5029 57.7708 70.4058 58.1598 69.0424C58.8564 66.601 61.7181 65.8081 63.5826 67.5921C65.3785 69.3106 67.0816 71.1261 68.9377 73.0132Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_3_2043">
+                  <rect width="110.874" height="110.88" fill="white" />
+                </clipPath>
+              </defs></svg
+          ></a>
+        </li>
+        <li class="contact-icon">
+          <a rel="noopener" href="#contact"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 109 109"
+              fill="none">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M86.932 9.35433L16.7431 26.9016C7.41421 29.2338 6.24969 42.0204 15.0037 45.9996L36.6292 55.8293C41.0629 57.8447 45.8623 58.5726 50.5263 58.0757C50.0294 62.7397 50.7574 67.5391 52.7727 71.9728L62.6025 93.5983C66.5816 102.352 79.3682 101.188 81.7004 91.8589L99.2477 21.67C101.107 14.2321 94.3699 7.49488 86.932 9.35433ZM40.3742 47.5904C44.6146 49.5178 49.3606 49.6653 53.6107 48.1576C55.2169 47.5878 56.7523 46.7816 58.1628 45.7457C58.3592 45.6015 58.5532 45.4528 58.7446 45.2996L69.1017 37.014C70.7501 35.6952 72.9067 37.8519 71.588 39.5004L63.3024 49.8574C63.1492 50.0488 63.0005 50.2428 62.8563 50.4392C61.8204 51.8497 61.0142 53.3851 60.4444 54.9914C58.9367 59.2414 59.0842 63.9874 61.0116 68.2278L70.8414 89.8533C71.2746 90.8063 72.6666 90.6795 72.9205 89.664L90.4677 19.475C90.6702 18.6653 89.9367 17.9319 89.127 18.1343L18.9381 35.6815C17.9225 35.9354 17.7957 37.3274 18.7487 37.7606L40.3742 47.5904Z"
+                fill="white" /></svg
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <!-- end side-bar -->
+
+    <!-- start landing -->
+    <div class="landing text-center" id="home">
+      <div class="img">
+        <img class="img-fluid logo" src="images/logo.png" alt="" />
+        <div class="fingers">
+          <img class="img-fluid" src="images/fingers.png" alt="" />
+        </div>
+      </div>
+      <div class="title">
+        <h1 class="">Welcome to our private world</h1>
+      </div>
+    </div>
+    <!-- end landing -->
+
+    <!-- start  about -->
+    <div class="about pt-lg-5" id="about">
+      <div class="container">
+        <div class="title text-center">
+          <h1 class="pt-lg-5">Who Are We !</h1>
+          <div class="rainbow">
+            <img src="images/rainbow 1.png" alt="" />
+          </div>
+          <div class="healing">
+            <img src="images/healing.png" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 position-relative">
+            <h1 class="mt-4 pt-5 info">YAZ :</h1>
+            <h4 class="ms-4">
+              We specialize in printing of all kinds, such as your T-shirt &
+              hoodie & mug & stickers for your laptop & keyboard layout and tote
+              bags, with high quality materials and printing.
+            </h4>
+            <div class="watermelon">
+              <img class="img-fluid" src="images/watermelon.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+            <div class="works">
+              <img class="img-fluid works-img" src="images/works.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end  about -->
+
+    <!-- start clint -->
+    <div class="clint pt-5" id="clint">
+      <div class="container-fluid">
+        <div class="title text-center pb-lg-5">
+          <h1 class="mb-5">What Our Client Said about us</h1>
+        </div>
+        <div class="row text-start">
+          <div class="slider">
+            <div class="slide-track">
+              <div class="slide">
+                <div class="move">
+                  <div class="person">
+                    <div class="details d-flex align-items-center text-center">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="images/ahmed nabil.png"
+                        alt="" />
+                      <h3 class="">Ahmed Nabil</h3>
+                    </div>
+                    <p>
+                      I dealt with him when ordering a quantity exceeding 30
+                      stickers, and the quality was excellent and my personal
+                      dealings with them were very comfortable
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="move">
+                  <div class="person-blue">
+                    <div class="details d-flex align-items-center text-center">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="images/rageh.png"
+                        alt="" />
+                      <h3 class="">Eslam Rageh</h3>
+                    </div>
+                    <p>
+                      I bought a hoodie from Yaz, the material was nice, the
+                      price was affordable, the order was not late, and dealing
+                      with the young men was with respect and professionalism.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="move">
+                  <div class="person">
+                    <div class="details d-flex align-items-center text-center">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="images/sherif.png"
+                        alt="" />
+                      <h3 class="">Sherif Ibrahim</h3>
+                    </div>
+                    <p>
+                      I was looking for laptop keyboard stickers with good
+                      prices and clean quality, and I found the Yaz brand after
+                      a lot of searching, their prices are really affordable and
+                      with the best quality. I advise you to try it. Thank you
+                      Yaz.💜
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="move">
+                  <div class="person-blue">
+                    <div class="details d-flex align-items-center text-center">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="images/alaa.png"
+                        alt="" />
+                      <h3 class="">Alaa Refaey</h3>
+                    </div>
+                    <p>
+                      I had a delightful experience dealing with YAZ. The tote
+                      bag are not only of great quality but also come with a
+                      deliciously friendly service. Moreover, the prices are
+                      reasonable.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="move">
+                  <div class="person">
+                    <div class="details d-flex align-items-center text-center">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="images/dr.png"
+                        alt="" />
+                      <h3 class="">D\Maha Ali</h3>
+                    </div>
+                    <p>
+                      The guys had a lot of energy in their work and printed
+                      office supplies and clothes for my staff, and were really
+                      friendly😍.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="move">
+                  <div class="person">
+                    <div class="details d-flex align-items-center text-center">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="images/ahmed nabil.png"
+                        alt="" />
+                      <h3 class="">Ahmed Nabil</h3>
+                    </div>
+                    <p>
+                      I dealt with him when ordering a quantity exceeding 30
+                      stickers, and the quality was excellent and my personal
+                      dealings with them were very comfortable
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="move">
+                  <div class="person-blue">
+                    <div class="details d-flex align-items-center text-center">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="images/rageh.png"
+                        alt="" />
+                      <h3 class="">Eslam Rageh</h3>
+                    </div>
+                    <p>
+                      I bought a hoodie from Yaz, the material was nice, the
+                      price was affordable, the order was not late, and dealing
+                      with the young men was with respect and professionalism.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="move">
+                  <div class="person">
+                    <div class="details d-flex align-items-center text-center">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="images/sherif.png"
+                        alt="" />
+                      <h3 class="">Sherif Ibrahim</h3>
+                    </div>
+                    <p>
+                      I was looking for laptop keyboard stickers with good
+                      prices and clean quality, and I found the Yaz brand after
+                      a lot of searching, their prices are really affordable and
+                      with the best quality. I advise you to try it. Thank you
+                      Yaz.💜
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="move">
+                  <div class="person-blue">
+                    <div class="details d-flex align-items-center text-center">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="images/alaa.png"
+                        alt="" />
+                      <h3 class="">Alaa Refaey</h3>
+                    </div>
+                    <p>
+                      I had a delightful experience dealing with YAZ. The tote
+                      bag are not only of great quality but also come with a
+                      deliciously friendly service. Moreover, the prices are
+                      reasonable.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="move">
+                  <div class="person">
+                    <div class="details d-flex align-items-center text-center">
+                      <img
+                        class="rounded-circle img-fluid"
+                        src="images/dr.png"
+                        alt="" />
+                      <h3 class="">D\Maha Ali</h3>
+                    </div>
+                    <p>
+                      The guys had a lot of energy in their work and printed
+                      office supplies and clothes for my staff, and were really
+                      friendly😍.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="glass">
+          <img class="img-fluid" src="images/glass.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end clint -->
+
+    <!-- start contact -->
+    <div class="contact pt-5" id="contact">
+      <div class="container">
+        <div class="title text-center">
+          <h1 class="mb-2 pb-5">Contact Us</h1>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="social mb-4">
+              <a
+                href="https://www.facebook.com/profile.php?id=100086888072247&mibextid=ZbWKwL"
+                target="_blank"
+                rel="noopener">
+                <img class="img-fluid" src="images/facebook.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="social mb-4">
+              <a
+                href="https://instagram.com/yaz_printinghouse2022?igshid=MzMyNGUyNmU2YQ=="
+                target="_blank"
+                rel="noopener">
+                <img class="img-fluid" src="images/instgram.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="social mb-4">
+              <a
+                href="https://api.whatsapp.com/send?phone=201050433719"
+                target="_blank"
+                rel="noopener">
+                <img class="img-fluid" src="images/whats .png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="social">
+              <a
+                href="mailto:yazhouse22@gmail.com"
+                target="_blank"
+                rel="noopener">
+                <img class="img-fluid" src="images/gmail.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="title text-center">
+          <h1 class="mb-1 mt-5 pb-5">Owners</h1>
+        </div>
+        <div class="row text-center">
+          <div class="test">
+            <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+              <div class="owner">
+                <img
+                  class="img-fluid mb-2 al rounded-circle p-3"
+                  src="images/al.png"
+                  alt="" />
+                <h3>Almhmdy Ibrahim</h3>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+              <div class="owner">
+                <img
+                  class="img-fluid mb-2 elmalky rounded-circle p-3"
+                  src="images/elmalky.png"
+                  alt="" />
+                <h3>Ahmed Elmalky</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-4 hide">
+            <div class="owner">
+              <img
+                class="img-fluid mb-2 al rounded-circle p-3"
+                src="images/al.png"
+                alt="" />
+              <h3>Almhmdy Ibrahim</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-4 hide">
+            <div class="owner">
+              <img
+                class="img-fluid mb-2 elmalky rounded-circle p-3"
+                src="images/elmalky.png"
+                alt="" />
+              <h3>Ahmed Elmalky</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+            <div class="owner">
+              <img
+                class="img-fluid mb-2 kotb rounded-circle p-3"
+                src="images/kotb.png"
+                alt="" />
+              <h3>Yasmeen Kotb</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

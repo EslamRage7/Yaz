@@ -1,0 +1,269 @@
+/*start responsive */
+@media (max-width: 991px) {
+  .landing .logo {
+    margin-top: 145px;
+    width: 550px;
+    height: 350px;
+  }
+  .landing h1 {
+    margin-top: 15px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .about h4 {
+    color: white;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    width: 333px;
+    font-size: 21px;
+  }
+  .about .title h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+  }
+  .rainbow {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+  }
+  .rainbow img {
+    width: 150px;
+    height: 120px;
+  }
+  .healing {
+    position: absolute;
+    right: 0%;
+    top: 25%;
+  }
+  .healing img {
+    width: 100px;
+    height: 80px;
+  }
+  .about .info {
+    font-family: Poppins;
+    font-size: 55px;
+    font-weight: 600;
+  }
+  .watermelon {
+    position: absolute;
+    bottom: 5%;
+    left: 60%;
+  }
+  .about .works-img {
+    height: 420px;
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .side-bar {
+    width: 43px;
+  }
+  .side-bar ul li {
+    margin-top: 20px;
+    padding: 1px 3px;
+    width: 26px;
+    height: 26px;
+  }
+  .landing h1 {
+    font-size: 33px;
+  }
+  .landing .logo {
+    margin-top: 165px;
+    width: 400px;
+    height: 265px;
+  }
+  .landing .fingers {
+    position: absolute;
+    top: 20%;
+    right: 1%;
+  }
+  .landing .fingers img {
+    width: 140px;
+  }
+  .about h4 {
+    color: white;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    width: 500px;
+    font-size: 20px;
+  }
+  .about .title h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .rainbow {
+    position: absolute;
+    left: -5%;
+    top: 57%;
+  }
+  .rainbow img {
+    width: 140px;
+    height: 100px;
+  }
+  .healing {
+    position: absolute;
+    right: 0%;
+    top: 160%;
+  }
+  .healing img {
+    width: 100px;
+    height: 80px;
+  }
+  .about .info {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .watermelon {
+    position: absolute;
+    bottom: -36%;
+    left: 2px;
+  }
+  .about .works-img {
+    height: 420px;
+    margin-left: 0px;
+  }
+  .clint .title h1 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .clint .person-blue {
+    background: #3461ff;
+    border-radius: 15px;
+    padding: 15px;
+    height: 220px;
+    width: 350px;
+  }
+  .clint .person {
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    height: 223px;
+    width: 350px;
+  }
+  .contact .title h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .contact .social img {
+    border-radius: 15px;
+    width: 180px;
+  }
+  .contact .owner img {
+    width: 150px;
+    margin: auto;
+  }
+}
+@media (max-width: 568px) {
+  .side-bar {
+    top: 30%;
+    left: -2px;
+    z-index: 231446546;
+    width: 50px;
+    padding: 5px 10px;
+  }
+  .side-bar ul li {
+    font-size: 17px;
+    padding: 0 5px;
+    margin: 15px auto;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .landing h1 {
+    font-size: 27px;
+    margin-top: 0;
+  }
+  .landing .logo {
+    margin-top: 185px;
+    width: 345px;
+    height: 255px;
+  }
+  .landing .fingers {
+    position: absolute;
+    top: 20%;
+    right: 1%;
+  }
+  .landing .fingers img {
+    width: 140px;
+  }
+  .about .title h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .about h4 {
+    width: auto;
+    margin: auto;
+    text-align: center;
+  }
+  .about .info {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 45px;
+  }
+  .healing {
+    right: 2%;
+    top: 150%;
+  }
+  .healing img {
+    width: 80px;
+    height: 60px;
+  }
+  .works {
+    position: relative;
+    margin-top: 40px;
+  }
+  .rainbow {
+    position: absolute;
+    left: -3%;
+    top: 78%;
+  }
+  .watermelon {
+    bottom: -100%;
+    z-index: 2;
+    left: 2%;
+  }
+  .clint .title h1 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .contact .title h1 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .contact .social img {
+    border-radius: 15px;
+    width: 150px;
+  }
+  .contact .owner img {
+    width: 120px;
+  }
+  .contact .owner h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 575px) {
+  .hide {
+    display: none;
+  }
+  .test {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact .elmalky {
+    margin-top: 5px !important;
+  }
+}
+/*end responsive */
