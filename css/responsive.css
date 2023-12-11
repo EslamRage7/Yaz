@@ -51,8 +51,8 @@
   }
   .watermelon {
     position: absolute;
-    bottom: 5%;
-    left: 60%;
+    bottom: -12px;
+    left: 72%;
   }
   .about .works-img {
     height: 420px;
@@ -128,9 +128,13 @@
     bottom: -36%;
     left: 2px;
   }
+  .watermelon img {
+    width: 60px;
+  }
   .about .works-img {
-    height: 420px;
-    margin-left: 0px;
+    height: 349px;
+    width: 272px;
+    margin-left: 62px;
   }
   .clint .title h1 {
     font-size: 35px;
@@ -168,12 +172,6 @@
   }
   .contact .elmalky {
     margin-top: -3px !important;
-  }
-  .owner-elmalky {
-    margin-right: 50px;
-  }
-  .owner-al {
-    margin-left: 50px;
   }
 }
 @media (max-width: 568px) {
@@ -265,6 +263,9 @@
     font-size: 17px;
     font-weight: 600;
   }
+  .contact .elmalky {
+    margin-top: -3px !important;
+  }
 }
 @media (max-width: 575px) {
   .hide {
@@ -275,8 +276,19 @@
     align-items: center;
     justify-content: space-between;
   }
-  .contact .elmalky {
-    margin-top: -3px !important;
+  .owner-elmalky {
+    margin-right: 50px;
+  }
+  .owner-al {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 475px) {
+  .owner-elmalky {
+    margin-right: 25px;
+  }
+  .owner-al {
+    margin-left: 25px;
   }
 }
 /*end responsive */
