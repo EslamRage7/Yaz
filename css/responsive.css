@@ -162,6 +162,19 @@
     width: 150px;
     margin: auto;
   }
+  .contact .owner h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .contact .elmalky {
+    margin-top: -3px !important;
+  }
+  .owner-elmalky {
+    margin-right: 50px;
+  }
+  .owner-al {
+    margin-left: 50px;
+  }
 }
 @media (max-width: 568px) {
   .side-bar {
@@ -249,7 +262,7 @@
     width: 120px;
   }
   .contact .owner h3 {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
   }
 }
@@ -263,7 +276,7 @@
     justify-content: space-between;
   }
   .contact .elmalky {
-    margin-top: 1px !important;
+    margin-top: -3px !important;
   }
 }
 /*end responsive */
