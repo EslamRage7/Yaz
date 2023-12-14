@@ -13,6 +13,16 @@ allLis.forEach((ele) => {
   });
 });
 
+
+allLis.forEach((ele) => {
+  ele.addEventListener("click", function () {
+    allLis.forEach((ele) => {
+      ele.classList.remove("active");
+    });
+    this.classList.add("active");
+  });
+});
+
 window.onscroll = function () {
   if (this.scrollY < 600) {
     allLis.forEach((ele) => {
