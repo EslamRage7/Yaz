@@ -215,6 +215,7 @@
     width: auto;
     margin: auto;
     text-align: center;
+    font-size: 17px;
   }
   .about .info {
     font-family: Poppins;
@@ -284,8 +285,30 @@
   }
 }
 @media (max-width: 475px) {
+  .landing .logo {
+    margin-top: 185px;
+    width: 345px;
+    height: 223px;
+  }
+  .about .works-img {
+    height: 290px;
+    width: 200px;
+    margin-left: 65px;
+  }
+  .watermelon {
+    left: 11%;
+  }
+  .watermelon img {
+    width: 54px;
+  }
+  .contact .owner img {
+    width: 96px;
+  }
   .owner-elmalky {
     margin-right: 25px;
+  }
+  .contact .elmalky {
+    margin-top: 0px !important;
   }
   .owner-al {
     margin-left: 25px;
