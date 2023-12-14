@@ -4,6 +4,15 @@ let aboutLi = document.querySelector(".about-icon");
 let clintLi = document.querySelector(".clint-icon");
 let contactLi = document.querySelector(".contact-icon");
 
+allLis.forEach((ele) => {
+  ele.addEventListener("click", function () {
+    allLis.forEach((ele) => {
+      ele.classList.remove("active");
+    });
+    this.classList.add("active");
+  });
+});
+
 window.onscroll = function () {
   if (this.scrollY < 600) {
     allLis.forEach((ele) => {
