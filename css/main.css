@@ -59,7 +59,7 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  padding-bottom: 1px;
 }
 .landing .img {
   position: relative;
