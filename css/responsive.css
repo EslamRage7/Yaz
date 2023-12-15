@@ -190,6 +190,9 @@
     height: 30px;
     line-height: 30px;
   }
+  .landing {
+    padding-bottom: 60px;
+  }
   .landing h1 {
     font-size: 27px;
     margin-top: 0;
@@ -246,7 +249,7 @@
     left: 2%;
   }
   .clint .title h1 {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 600;
   }
   .contact .title h1 {
@@ -300,6 +303,16 @@
   }
   .watermelon img {
     width: 54px;
+  }
+
+  .clint .glass img {
+    width: 75px;
+  }
+  .clint .title h1 {
+    font-size: 27px;
+    width: 300px;
+    font-weight: 600;
+    margin: auto;
   }
   .contact .owner img {
     width: 96px;
